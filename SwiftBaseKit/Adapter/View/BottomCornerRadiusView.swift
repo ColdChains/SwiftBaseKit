@@ -30,7 +30,7 @@ open class BottomCornerRadiusView: UIView {
     open override func layoutSubviews() {
         super.layoutSubviews()
         shapeLayer?.removeFromSuperlayer()
-        shapeLayer = clipsBottomCornerRadius(8)
+        shapeLayer = clipsBottomCornerRadius(BaseConfig.shared.bigCornerRadius)
     }
     
 }

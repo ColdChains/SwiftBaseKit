@@ -1,5 +1,5 @@
 //
-//  BaseColorConfig.swift
+//  LightGrayLabel.swift
 //  SwiftBaseKit
 //
 //  Created by lax on 2022/9/28.

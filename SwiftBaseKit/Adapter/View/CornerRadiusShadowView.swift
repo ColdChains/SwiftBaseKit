@@ -25,7 +25,7 @@ open class CornerRadiusShadowView: UIView {
     
     private func initView() {
         backgroundColor = .container
-        layer.cornerRadius = 4
+        layer.cornerRadius = BaseConfig.shared.cornerRadius
         addShadow(.shadow)
     }
 
