@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         
         print(UIDevice.current.desc, Bundle.main.desc)
         
+        let label = LongPressCopyLabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        label.text = "copy"
+        view.addSubview(label)
+        
+        label.copyClosure = { text in
+            print(text ?? "")
+        }
     }
 
 }

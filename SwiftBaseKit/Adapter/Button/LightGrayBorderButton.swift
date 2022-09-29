@@ -9,7 +9,7 @@ import UIKit
 
 open class LightGrayBorderButton: UIButton {
 
-    override init(frame: CGRect = CGRect()) {
+    public override init(frame: CGRect = CGRect()) {
         super.init(frame: frame)
         initView()
     }

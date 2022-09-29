@@ -11,6 +11,7 @@
 		183D7A7528E538FE001D727C /* AVSpeechSynthesizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */; };
 		183D7A7628E538FE001D727C /* FeedbackGeneratorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */; };
 		183D7A7828E53922001D727C /* ClearCacheManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7728E53922001D727C /* ClearCacheManage.swift */; };
+		183D7A7A28E54050001D727C /* LongPressCopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7928E54050001D727C /* LongPressCopyLabel.swift */; };
 		18868C9E28E428DB00E9AE04 /* SwiftBaseKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */; };
 		18868CA428E428DB00E9AE04 /* SwiftBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */; };
 		18868CA928E428DC00E9AE04 /* SwiftBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CA828E428DC00E9AE04 /* SwiftBaseKitTests.swift */; };
@@ -111,6 +112,7 @@
 		183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSpeechSynthesizerManager.swift; sourceTree = "<group>"; };
 		183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorManager.swift; sourceTree = "<group>"; };
 		183D7A7728E53922001D727C /* ClearCacheManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearCacheManage.swift; sourceTree = "<group>"; };
+		183D7A7928E54050001D727C /* LongPressCopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressCopyLabel.swift; sourceTree = "<group>"; };
 		18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18868C9C28E428DB00E9AE04 /* SwiftBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBaseKit.h; sourceTree = "<group>"; };
 		18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftBaseKit.docc; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 		18868CE828E4295600E9AE04 /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				183D7A7928E54050001D727C /* LongPressCopyLabel.swift */,
 				18868CE928E4295600E9AE04 /* LineSpaceLabel.swift */,
 				18868CED28E4295600E9AE04 /* EdgeInsetsLabel.swift */,
 				18868CEA28E4295600E9AE04 /* LightGrayLabel.swift */,
@@ -578,6 +581,7 @@
 				18868D3528E4295600E9AE04 /* DarkTextBorderBotton.swift in Sources */,
 				18868D1528E4295600E9AE04 /* UIDevice.swift in Sources */,
 				18868D3A28E4295600E9AE04 /* CornerRadiusBackgroundView.swift in Sources */,
+				183D7A7A28E54050001D727C /* LongPressCopyLabel.swift in Sources */,
 				18868D2A28E4295600E9AE04 /* ThemeLabel.swift in Sources */,
 				18868D3B28E4295600E9AE04 /* CircleShadowView.swift in Sources */,
 				18868D3928E4295600E9AE04 /* ThemeBorderView.swift in Sources */,

@@ -9,7 +9,7 @@ import UIKit
 
 open class CornerRadiusBackgroundView: UIView {
     
-    override init(frame: CGRect = CGRect()) {
+    public override init(frame: CGRect = CGRect()) {
         super.init(frame: frame)
         backgroundColor = .background
         layer.cornerRadius = BaseConfig.shared.cornerRadius

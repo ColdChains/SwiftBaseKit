@@ -9,7 +9,7 @@ import UIKit
 
 open class ThemeButton: UIButton {
     
-    override init(frame: CGRect = CGRect()) {
+    public override init(frame: CGRect = CGRect()) {
         super.init(frame: frame)
         initView()
     }

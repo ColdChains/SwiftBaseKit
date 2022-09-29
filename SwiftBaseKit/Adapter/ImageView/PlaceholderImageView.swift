@@ -9,7 +9,7 @@ import UIKit
 
 open class PlaceholderImageView: UIImageView {
     
-    override init(frame: CGRect = CGRect()) {
+    public override init(frame: CGRect = CGRect()) {
         super.init(frame: frame)
         backgroundColor = .placeholder
     }

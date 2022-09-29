@@ -9,7 +9,7 @@ import UIKit
 
 open class TopCornerRadiusView: UIView {
     
-    override init(frame: CGRect = CGRect()) {
+    public override init(frame: CGRect = CGRect()) {
         super.init(frame: frame)
         backgroundColor = .container
         addShadow(.shadow)
@@ -25,7 +25,7 @@ open class TopCornerRadiusView: UIView {
         addShadow(.shadow)
     }
     
-    var shapeLayer: CAShapeLayer?
+    open var shapeLayer: CAShapeLayer?
     
     open override func layoutSubviews() {
         super.layoutSubviews()
