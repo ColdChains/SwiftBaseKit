@@ -12,8 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("cornerRadius =", BaseConfig.shared.cornerRadius)
+        
+        print(UIDevice.current.desc, Bundle.main.desc)
+        
     }
 
 }

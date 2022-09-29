@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183D7A7428E538FE001D727C /* AVAudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7128E538FE001D727C /* AVAudioPlayerManager.swift */; };
+		183D7A7528E538FE001D727C /* AVSpeechSynthesizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */; };
+		183D7A7628E538FE001D727C /* FeedbackGeneratorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */; };
+		183D7A7828E53922001D727C /* ClearCacheManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7728E53922001D727C /* ClearCacheManage.swift */; };
 		18868C9E28E428DB00E9AE04 /* SwiftBaseKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */; };
 		18868CA428E428DB00E9AE04 /* SwiftBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */; };
 		18868CA928E428DC00E9AE04 /* SwiftBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CA828E428DC00E9AE04 /* SwiftBaseKitTests.swift */; };
@@ -103,6 +107,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		183D7A7128E538FE001D727C /* AVAudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioPlayerManager.swift; sourceTree = "<group>"; };
+		183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSpeechSynthesizerManager.swift; sourceTree = "<group>"; };
+		183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorManager.swift; sourceTree = "<group>"; };
+		183D7A7728E53922001D727C /* ClearCacheManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearCacheManage.swift; sourceTree = "<group>"; };
 		18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18868C9C28E428DB00E9AE04 /* SwiftBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBaseKit.h; sourceTree = "<group>"; };
 		18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftBaseKit.docc; sourceTree = "<group>"; };
@@ -202,6 +210,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183D7A7028E538D2001D727C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				183D7A7128E538FE001D727C /* AVAudioPlayerManager.swift */,
+				183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */,
+				183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */,
+				183D7A7728E53922001D727C /* ClearCacheManage.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		18868C8F28E428DB00E9AE04 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +247,7 @@
 			children = (
 				18868C9C28E428DB00E9AE04 /* SwiftBaseKit.h */,
 				18868CCB28E4295600E9AE04 /* Extension */,
+				183D7A7028E538D2001D727C /* Manager */,
 				18868CE028E4295600E9AE04 /* Config */,
 				18868CE228E4295600E9AE04 /* Constant */,
 				18868CE428E4295600E9AE04 /* Adapter */,
@@ -549,6 +569,7 @@
 			files = (
 				18868D3028E4295600E9AE04 /* DarkGrayButton.swift in Sources */,
 				18868D2D28E4295600E9AE04 /* DarkGrayLabel.swift in Sources */,
+				183D7A7628E538FE001D727C /* FeedbackGeneratorManager.swift in Sources */,
 				18868D4728E4295600E9AE04 /* HomeBarHeightConstraint.swift in Sources */,
 				18868D3C28E4295600E9AE04 /* BackgroundView.swift in Sources */,
 				18868D2128E4295600E9AE04 /* Double.swift in Sources */,
@@ -561,7 +582,9 @@
 				18868D3B28E4295600E9AE04 /* CircleShadowView.swift in Sources */,
 				18868D3928E4295600E9AE04 /* ThemeBorderView.swift in Sources */,
 				18868D2828E4295600E9AE04 /* LineSpaceLabel.swift in Sources */,
+				183D7A7828E53922001D727C /* ClearCacheManage.swift in Sources */,
 				18868D4C28E4295600E9AE04 /* AutoWidthConstraint.swift in Sources */,
+				183D7A7528E538FE001D727C /* AVSpeechSynthesizerManager.swift in Sources */,
 				18868D1828E4295600E9AE04 /* UIImage.swift in Sources */,
 				18868D1928E4295600E9AE04 /* UIViewController.swift in Sources */,
 				18868D1E28E4295600E9AE04 /* DateComponents.swift in Sources */,
@@ -573,6 +596,7 @@
 				18868D3F28E4295600E9AE04 /* ShadowView.swift in Sources */,
 				18868D1B28E4295600E9AE04 /* UISegmentedControl.swift in Sources */,
 				18868D2428E4295600E9AE04 /* BaseConfig.swift in Sources */,
+				183D7A7428E538FE001D727C /* AVAudioPlayerManager.swift in Sources */,
 				18868D3228E4295600E9AE04 /* LightGrayButton.swift in Sources */,
 				18868D2328E4295600E9AE04 /* UnicodeToString.swift in Sources */,
 				18868D2928E4295600E9AE04 /* LightGrayLabel.swift in Sources */,

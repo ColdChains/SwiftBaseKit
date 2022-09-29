@@ -98,6 +98,9 @@ Pod::Spec.new do |spec|
   spec.subspec "Extension" do |ss|
     ss.source_files = "SwiftBaseKit/Extension/**/*.swift"
   end
+  spec.subspec "Manager" do |ss|
+    ss.source_files = "SwiftBaseKit/Manager/**/*.swift"
+  end
   spec.subspec "Config" do |ss|
     ss.source_files = "SwiftBaseKit/Config/**/*.swift"
     ss.dependency "SwiftBaseKit/Extension"
