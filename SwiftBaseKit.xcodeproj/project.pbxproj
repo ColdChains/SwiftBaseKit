@@ -11,7 +11,6 @@
 		183D7A7528E538FE001D727C /* AVSpeechSynthesizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */; };
 		183D7A7628E538FE001D727C /* FeedbackGeneratorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */; };
 		183D7A7828E53922001D727C /* ClearCacheManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7728E53922001D727C /* ClearCacheManage.swift */; };
-		183D7A7A28E54050001D727C /* LongPressCopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D7A7928E54050001D727C /* LongPressCopyLabel.swift */; };
 		18868C9E28E428DB00E9AE04 /* SwiftBaseKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */; };
 		18868CA428E428DB00E9AE04 /* SwiftBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */; };
 		18868CA928E428DC00E9AE04 /* SwiftBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CA828E428DC00E9AE04 /* SwiftBaseKitTests.swift */; };
@@ -39,48 +38,10 @@
 		18868D2128E4295600E9AE04 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CDD28E4295600E9AE04 /* Double.swift */; };
 		18868D2228E4295600E9AE04 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CDE28E4295600E9AE04 /* Bundle.swift */; };
 		18868D2328E4295600E9AE04 /* UnicodeToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CDF28E4295600E9AE04 /* UnicodeToString.swift */; };
-		18868D2428E4295600E9AE04 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CE128E4295600E9AE04 /* BaseConfig.swift */; };
-		18868D2528E4295600E9AE04 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CE328E4295600E9AE04 /* Constant.swift */; };
-		18868D2728E4295600E9AE04 /* PlaceholderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CE728E4295600E9AE04 /* PlaceholderImageView.swift */; };
-		18868D2828E4295600E9AE04 /* LineSpaceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CE928E4295600E9AE04 /* LineSpaceLabel.swift */; };
-		18868D2928E4295600E9AE04 /* LightGrayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CEA28E4295600E9AE04 /* LightGrayLabel.swift */; };
-		18868D2A28E4295600E9AE04 /* ThemeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CEB28E4295600E9AE04 /* ThemeLabel.swift */; };
-		18868D2C28E4295600E9AE04 /* EdgeInsetsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CED28E4295600E9AE04 /* EdgeInsetsLabel.swift */; };
-		18868D2D28E4295600E9AE04 /* DarkGrayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CEE28E4295600E9AE04 /* DarkGrayLabel.swift */; };
-		18868D2E28E4295600E9AE04 /* DarkTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CEF28E4295600E9AE04 /* DarkTextLabel.swift */; };
-		18868D2F28E4295600E9AE04 /* ThemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF128E4295600E9AE04 /* ThemeButton.swift */; };
-		18868D3028E4295600E9AE04 /* DarkGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF228E4295600E9AE04 /* DarkGrayButton.swift */; };
-		18868D3128E4295600E9AE04 /* DarkGrayBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF328E4295600E9AE04 /* DarkGrayBorderButton.swift */; };
-		18868D3228E4295600E9AE04 /* LightGrayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF428E4295600E9AE04 /* LightGrayButton.swift */; };
-		18868D3328E4295600E9AE04 /* LightGrayBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF528E4295600E9AE04 /* LightGrayBorderButton.swift */; };
-		18868D3428E4295600E9AE04 /* CircleThemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF628E4295600E9AE04 /* CircleThemeButton.swift */; };
-		18868D3528E4295600E9AE04 /* DarkTextBorderBotton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF728E4295600E9AE04 /* DarkTextBorderBotton.swift */; };
-		18868D3628E4295600E9AE04 /* DarkTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF828E4295600E9AE04 /* DarkTextButton.swift */; };
-		18868D3728E4295600E9AE04 /* ThemeBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CF928E4295600E9AE04 /* ThemeBorderButton.swift */; };
-		18868D3828E4295600E9AE04 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CFB28E4295600E9AE04 /* DividerView.swift */; };
-		18868D3928E4295600E9AE04 /* ThemeBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CFC28E4295600E9AE04 /* ThemeBorderView.swift */; };
-		18868D3A28E4295600E9AE04 /* CornerRadiusBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CFD28E4295600E9AE04 /* CornerRadiusBackgroundView.swift */; };
-		18868D3B28E4295600E9AE04 /* CircleShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CFE28E4295600E9AE04 /* CircleShadowView.swift */; };
-		18868D3C28E4295600E9AE04 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868CFF28E4295600E9AE04 /* BackgroundView.swift */; };
-		18868D3D28E4295600E9AE04 /* CornerRadiusContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0028E4295600E9AE04 /* CornerRadiusContainerView.swift */; };
-		18868D3E28E4295600E9AE04 /* CornerRadiusShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0128E4295600E9AE04 /* CornerRadiusShadowView.swift */; };
-		18868D3F28E4295600E9AE04 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0228E4295600E9AE04 /* ShadowView.swift */; };
-		18868D4028E4295600E9AE04 /* TopCornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0328E4295600E9AE04 /* TopCornerRadiusView.swift */; };
-		18868D4128E4295600E9AE04 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0428E4295600E9AE04 /* CircleView.swift */; };
-		18868D4228E4295600E9AE04 /* ContainerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0528E4295600E9AE04 /* ContainerShadowView.swift */; };
-		18868D4328E4295600E9AE04 /* BottomCornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0628E4295600E9AE04 /* BottomCornerRadiusView.swift */; };
-		18868D4428E4295600E9AE04 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0728E4295600E9AE04 /* ContainerView.swift */; };
-		18868D4528E4295600E9AE04 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0828E4295600E9AE04 /* CornerRadiusView.swift */; };
-		18868D4628E4295600E9AE04 /* CircleBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0928E4295600E9AE04 /* CircleBackgroundView.swift */; };
-		18868D4728E4295600E9AE04 /* HomeBarHeightConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0B28E4295600E9AE04 /* HomeBarHeightConstraint.swift */; };
-		18868D4828E4295600E9AE04 /* ButtonHeightConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0C28E4295600E9AE04 /* ButtonHeightConstraint.swift */; };
-		18868D4928E4295600E9AE04 /* NavigationBarHeightConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0D28E4295600E9AE04 /* NavigationBarHeightConstraint.swift */; };
-		18868D4A28E4295600E9AE04 /* StatusBarHeightConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0E28E4295600E9AE04 /* StatusBarHeightConstraint.swift */; };
-		18868D4B28E4295600E9AE04 /* AutoHeightConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D0F28E4295600E9AE04 /* AutoHeightConstraint.swift */; };
-		18868D4C28E4295600E9AE04 /* AutoWidthConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D1028E4295600E9AE04 /* AutoWidthConstraint.swift */; };
-		18868D4D28E4295600E9AE04 /* BottomMarginConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18868D1128E4295600E9AE04 /* BottomMarginConstraint.swift */; };
 		18868D5028E4353900E9AE04 /* SwiftBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */; };
 		18868D5128E4353900E9AE04 /* SwiftBaseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57BF6EFE2ABD3A3700898539 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF6EFD2ABD3A3700898539 /* Constant.swift */; };
+		57BF6F002ABD3A9100898539 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF6EFF2ABD3A9100898539 /* NSObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +73,6 @@
 		183D7A7228E538FE001D727C /* AVSpeechSynthesizerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSpeechSynthesizerManager.swift; sourceTree = "<group>"; };
 		183D7A7328E538FE001D727C /* FeedbackGeneratorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorManager.swift; sourceTree = "<group>"; };
 		183D7A7728E53922001D727C /* ClearCacheManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearCacheManage.swift; sourceTree = "<group>"; };
-		183D7A7928E54050001D727C /* LongPressCopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressCopyLabel.swift; sourceTree = "<group>"; };
 		18868C9928E428DB00E9AE04 /* SwiftBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18868C9C28E428DB00E9AE04 /* SwiftBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBaseKit.h; sourceTree = "<group>"; };
 		18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftBaseKit.docc; sourceTree = "<group>"; };
@@ -143,46 +103,8 @@
 		18868CDD28E4295600E9AE04 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		18868CDE28E4295600E9AE04 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		18868CDF28E4295600E9AE04 /* UnicodeToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeToString.swift; sourceTree = "<group>"; };
-		18868CE128E4295600E9AE04 /* BaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseConfig.swift; sourceTree = "<group>"; };
-		18868CE328E4295600E9AE04 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		18868CE728E4295600E9AE04 /* PlaceholderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderImageView.swift; sourceTree = "<group>"; };
-		18868CE928E4295600E9AE04 /* LineSpaceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSpaceLabel.swift; sourceTree = "<group>"; };
-		18868CEA28E4295600E9AE04 /* LightGrayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightGrayLabel.swift; sourceTree = "<group>"; };
-		18868CEB28E4295600E9AE04 /* ThemeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeLabel.swift; sourceTree = "<group>"; };
-		18868CED28E4295600E9AE04 /* EdgeInsetsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsetsLabel.swift; sourceTree = "<group>"; };
-		18868CEE28E4295600E9AE04 /* DarkGrayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkGrayLabel.swift; sourceTree = "<group>"; };
-		18868CEF28E4295600E9AE04 /* DarkTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTextLabel.swift; sourceTree = "<group>"; };
-		18868CF128E4295600E9AE04 /* ThemeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeButton.swift; sourceTree = "<group>"; };
-		18868CF228E4295600E9AE04 /* DarkGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkGrayButton.swift; sourceTree = "<group>"; };
-		18868CF328E4295600E9AE04 /* DarkGrayBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkGrayBorderButton.swift; sourceTree = "<group>"; };
-		18868CF428E4295600E9AE04 /* LightGrayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightGrayButton.swift; sourceTree = "<group>"; };
-		18868CF528E4295600E9AE04 /* LightGrayBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightGrayBorderButton.swift; sourceTree = "<group>"; };
-		18868CF628E4295600E9AE04 /* CircleThemeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleThemeButton.swift; sourceTree = "<group>"; };
-		18868CF728E4295600E9AE04 /* DarkTextBorderBotton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTextBorderBotton.swift; sourceTree = "<group>"; };
-		18868CF828E4295600E9AE04 /* DarkTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTextButton.swift; sourceTree = "<group>"; };
-		18868CF928E4295600E9AE04 /* ThemeBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeBorderButton.swift; sourceTree = "<group>"; };
-		18868CFB28E4295600E9AE04 /* DividerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
-		18868CFC28E4295600E9AE04 /* ThemeBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeBorderView.swift; sourceTree = "<group>"; };
-		18868CFD28E4295600E9AE04 /* CornerRadiusBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusBackgroundView.swift; sourceTree = "<group>"; };
-		18868CFE28E4295600E9AE04 /* CircleShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleShadowView.swift; sourceTree = "<group>"; };
-		18868CFF28E4295600E9AE04 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		18868D0028E4295600E9AE04 /* CornerRadiusContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusContainerView.swift; sourceTree = "<group>"; };
-		18868D0128E4295600E9AE04 /* CornerRadiusShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusShadowView.swift; sourceTree = "<group>"; };
-		18868D0228E4295600E9AE04 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		18868D0328E4295600E9AE04 /* TopCornerRadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCornerRadiusView.swift; sourceTree = "<group>"; };
-		18868D0428E4295600E9AE04 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		18868D0528E4295600E9AE04 /* ContainerShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerShadowView.swift; sourceTree = "<group>"; };
-		18868D0628E4295600E9AE04 /* BottomCornerRadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCornerRadiusView.swift; sourceTree = "<group>"; };
-		18868D0728E4295600E9AE04 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
-		18868D0828E4295600E9AE04 /* CornerRadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
-		18868D0928E4295600E9AE04 /* CircleBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackgroundView.swift; sourceTree = "<group>"; };
-		18868D0B28E4295600E9AE04 /* HomeBarHeightConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBarHeightConstraint.swift; sourceTree = "<group>"; };
-		18868D0C28E4295600E9AE04 /* ButtonHeightConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonHeightConstraint.swift; sourceTree = "<group>"; };
-		18868D0D28E4295600E9AE04 /* NavigationBarHeightConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarHeightConstraint.swift; sourceTree = "<group>"; };
-		18868D0E28E4295600E9AE04 /* StatusBarHeightConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarHeightConstraint.swift; sourceTree = "<group>"; };
-		18868D0F28E4295600E9AE04 /* AutoHeightConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHeightConstraint.swift; sourceTree = "<group>"; };
-		18868D1028E4295600E9AE04 /* AutoWidthConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoWidthConstraint.swift; sourceTree = "<group>"; };
-		18868D1128E4295600E9AE04 /* BottomMarginConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomMarginConstraint.swift; sourceTree = "<group>"; };
+		57BF6EFD2ABD3A3700898539 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		57BF6EFF2ABD3A9100898539 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,11 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				18868C9C28E428DB00E9AE04 /* SwiftBaseKit.h */,
+				57BF6EFC2ABD3A3700898539 /* Constant */,
 				18868CCB28E4295600E9AE04 /* Extension */,
 				183D7A7028E538D2001D727C /* Manager */,
-				18868CE028E4295600E9AE04 /* Config */,
-				18868CE228E4295600E9AE04 /* Constant */,
-				18868CE428E4295600E9AE04 /* Adapter */,
 				18868C9D28E428DB00E9AE04 /* SwiftBaseKit.docc */,
 			);
 			path = SwiftBaseKit;
@@ -310,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				18868CD928E4295600E9AE04 /* Date.swift */,
+				57BF6EFF2ABD3A9100898539 /* NSObject.swift */,
 				18868CDA28E4295600E9AE04 /* DateComponents.swift */,
 				18868CDB28E4295600E9AE04 /* Dispatch.swift */,
 				18868CDC28E4295600E9AE04 /* String.swift */,
@@ -320,113 +241,19 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		18868CE028E4295600E9AE04 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				18868CE128E4295600E9AE04 /* BaseConfig.swift */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		18868CE228E4295600E9AE04 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				18868CE328E4295600E9AE04 /* Constant.swift */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
-		18868CE428E4295600E9AE04 /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				18868CE528E4295600E9AE04 /* ImageView */,
-				18868CE828E4295600E9AE04 /* Label */,
-				18868CF028E4295600E9AE04 /* Button */,
-				18868CFA28E4295600E9AE04 /* View */,
-				18868D0A28E4295600E9AE04 /* Constraint */,
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		18868CE528E4295600E9AE04 /* ImageView */ = {
-			isa = PBXGroup;
-			children = (
-				18868CE728E4295600E9AE04 /* PlaceholderImageView.swift */,
-			);
-			path = ImageView;
-			sourceTree = "<group>";
-		};
-		18868CE828E4295600E9AE04 /* Label */ = {
-			isa = PBXGroup;
-			children = (
-				183D7A7928E54050001D727C /* LongPressCopyLabel.swift */,
-				18868CE928E4295600E9AE04 /* LineSpaceLabel.swift */,
-				18868CED28E4295600E9AE04 /* EdgeInsetsLabel.swift */,
-				18868CEA28E4295600E9AE04 /* LightGrayLabel.swift */,
-				18868CEB28E4295600E9AE04 /* ThemeLabel.swift */,
-				18868CEE28E4295600E9AE04 /* DarkGrayLabel.swift */,
-				18868CEF28E4295600E9AE04 /* DarkTextLabel.swift */,
-			);
-			path = Label;
-			sourceTree = "<group>";
-		};
-		18868CF028E4295600E9AE04 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				18868CF128E4295600E9AE04 /* ThemeButton.swift */,
-				18868CF928E4295600E9AE04 /* ThemeBorderButton.swift */,
-				18868CF628E4295600E9AE04 /* CircleThemeButton.swift */,
-				18868CF228E4295600E9AE04 /* DarkGrayButton.swift */,
-				18868CF328E4295600E9AE04 /* DarkGrayBorderButton.swift */,
-				18868CF428E4295600E9AE04 /* LightGrayButton.swift */,
-				18868CF528E4295600E9AE04 /* LightGrayBorderButton.swift */,
-				18868CF828E4295600E9AE04 /* DarkTextButton.swift */,
-				18868CF728E4295600E9AE04 /* DarkTextBorderBotton.swift */,
-			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		18868CFA28E4295600E9AE04 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18868CFB28E4295600E9AE04 /* DividerView.swift */,
-				18868CFC28E4295600E9AE04 /* ThemeBorderView.swift */,
-				18868CFF28E4295600E9AE04 /* BackgroundView.swift */,
-				18868CFD28E4295600E9AE04 /* CornerRadiusBackgroundView.swift */,
-				18868D0928E4295600E9AE04 /* CircleBackgroundView.swift */,
-				18868D0028E4295600E9AE04 /* CornerRadiusContainerView.swift */,
-				18868D0228E4295600E9AE04 /* ShadowView.swift */,
-				18868D0128E4295600E9AE04 /* CornerRadiusShadowView.swift */,
-				18868CFE28E4295600E9AE04 /* CircleShadowView.swift */,
-				18868D0728E4295600E9AE04 /* ContainerView.swift */,
-				18868D0528E4295600E9AE04 /* ContainerShadowView.swift */,
-				18868D0428E4295600E9AE04 /* CircleView.swift */,
-				18868D0828E4295600E9AE04 /* CornerRadiusView.swift */,
-				18868D0328E4295600E9AE04 /* TopCornerRadiusView.swift */,
-				18868D0628E4295600E9AE04 /* BottomCornerRadiusView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18868D0A28E4295600E9AE04 /* Constraint */ = {
-			isa = PBXGroup;
-			children = (
-				18868D0B28E4295600E9AE04 /* HomeBarHeightConstraint.swift */,
-				18868D0C28E4295600E9AE04 /* ButtonHeightConstraint.swift */,
-				18868D0D28E4295600E9AE04 /* NavigationBarHeightConstraint.swift */,
-				18868D0E28E4295600E9AE04 /* StatusBarHeightConstraint.swift */,
-				18868D0F28E4295600E9AE04 /* AutoHeightConstraint.swift */,
-				18868D1028E4295600E9AE04 /* AutoWidthConstraint.swift */,
-				18868D1128E4295600E9AE04 /* BottomMarginConstraint.swift */,
-			);
-			path = Constraint;
-			sourceTree = "<group>";
-		};
 		18868D4E28E4352200E9AE04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57BF6EFC2ABD3A3700898539 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				57BF6EFD2ABD3A3700898539 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,70 +397,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18868D3028E4295600E9AE04 /* DarkGrayButton.swift in Sources */,
-				18868D2D28E4295600E9AE04 /* DarkGrayLabel.swift in Sources */,
 				183D7A7628E538FE001D727C /* FeedbackGeneratorManager.swift in Sources */,
-				18868D4728E4295600E9AE04 /* HomeBarHeightConstraint.swift in Sources */,
-				18868D3C28E4295600E9AE04 /* BackgroundView.swift in Sources */,
 				18868D2128E4295600E9AE04 /* Double.swift in Sources */,
 				18868D2228E4295600E9AE04 /* Bundle.swift in Sources */,
-				18868D4928E4295600E9AE04 /* NavigationBarHeightConstraint.swift in Sources */,
-				18868D3528E4295600E9AE04 /* DarkTextBorderBotton.swift in Sources */,
 				18868D1528E4295600E9AE04 /* UIDevice.swift in Sources */,
-				18868D3A28E4295600E9AE04 /* CornerRadiusBackgroundView.swift in Sources */,
-				183D7A7A28E54050001D727C /* LongPressCopyLabel.swift in Sources */,
-				18868D2A28E4295600E9AE04 /* ThemeLabel.swift in Sources */,
-				18868D3B28E4295600E9AE04 /* CircleShadowView.swift in Sources */,
-				18868D3928E4295600E9AE04 /* ThemeBorderView.swift in Sources */,
-				18868D2828E4295600E9AE04 /* LineSpaceLabel.swift in Sources */,
 				183D7A7828E53922001D727C /* ClearCacheManage.swift in Sources */,
-				18868D4C28E4295600E9AE04 /* AutoWidthConstraint.swift in Sources */,
 				183D7A7528E538FE001D727C /* AVSpeechSynthesizerManager.swift in Sources */,
 				18868D1828E4295600E9AE04 /* UIImage.swift in Sources */,
+				57BF6F002ABD3A9100898539 /* NSObject.swift in Sources */,
 				18868D1928E4295600E9AE04 /* UIViewController.swift in Sources */,
 				18868D1E28E4295600E9AE04 /* DateComponents.swift in Sources */,
-				18868D2C28E4295600E9AE04 /* EdgeInsetsLabel.swift in Sources */,
-				18868D2F28E4295600E9AE04 /* ThemeButton.swift in Sources */,
 				18868D1228E4295600E9AE04 /* UIView.swift in Sources */,
-				18868D3828E4295600E9AE04 /* DividerView.swift in Sources */,
-				18868D3D28E4295600E9AE04 /* CornerRadiusContainerView.swift in Sources */,
-				18868D3F28E4295600E9AE04 /* ShadowView.swift in Sources */,
 				18868D1B28E4295600E9AE04 /* UISegmentedControl.swift in Sources */,
-				18868D2428E4295600E9AE04 /* BaseConfig.swift in Sources */,
+				57BF6EFE2ABD3A3700898539 /* Constant.swift in Sources */,
 				183D7A7428E538FE001D727C /* AVAudioPlayerManager.swift in Sources */,
-				18868D3228E4295600E9AE04 /* LightGrayButton.swift in Sources */,
 				18868D2328E4295600E9AE04 /* UnicodeToString.swift in Sources */,
-				18868D2928E4295600E9AE04 /* LightGrayLabel.swift in Sources */,
-				18868D4628E4295600E9AE04 /* CircleBackgroundView.swift in Sources */,
-				18868D3E28E4295600E9AE04 /* CornerRadiusShadowView.swift in Sources */,
 				18868D1428E4295600E9AE04 /* TransTionAnimation.swift in Sources */,
 				18868D1328E4295600E9AE04 /* UIColor.swift in Sources */,
-				18868D4528E4295600E9AE04 /* CornerRadiusView.swift in Sources */,
-				18868D3728E4295600E9AE04 /* ThemeBorderButton.swift in Sources */,
 				18868D1728E4295600E9AE04 /* UIButton.swift in Sources */,
 				18868C9E28E428DB00E9AE04 /* SwiftBaseKit.docc in Sources */,
-				18868D3428E4295600E9AE04 /* CircleThemeButton.swift in Sources */,
-				18868D2E28E4295600E9AE04 /* DarkTextLabel.swift in Sources */,
-				18868D2528E4295600E9AE04 /* Constant.swift in Sources */,
-				18868D4028E4295600E9AE04 /* TopCornerRadiusView.swift in Sources */,
-				18868D4428E4295600E9AE04 /* ContainerView.swift in Sources */,
-				18868D3628E4295600E9AE04 /* DarkTextButton.swift in Sources */,
-				18868D4828E4295600E9AE04 /* ButtonHeightConstraint.swift in Sources */,
-				18868D4A28E4295600E9AE04 /* StatusBarHeightConstraint.swift in Sources */,
-				18868D3128E4295600E9AE04 /* DarkGrayBorderButton.swift in Sources */,
-				18868D4228E4295600E9AE04 /* ContainerShadowView.swift in Sources */,
 				18868D1C28E4295600E9AE04 /* NibLoadable.swift in Sources */,
 				18868D1A28E4295600E9AE04 /* UIFont.swift in Sources */,
-				18868D4D28E4295600E9AE04 /* BottomMarginConstraint.swift in Sources */,
 				18868D1F28E4295600E9AE04 /* Dispatch.swift in Sources */,
 				18868D1D28E4295600E9AE04 /* Date.swift in Sources */,
 				18868D2028E4295600E9AE04 /* String.swift in Sources */,
 				18868D1628E4295600E9AE04 /* UITextField.swift in Sources */,
-				18868D4328E4295600E9AE04 /* BottomCornerRadiusView.swift in Sources */,
-				18868D4B28E4295600E9AE04 /* AutoHeightConstraint.swift in Sources */,
-				18868D3328E4295600E9AE04 /* LightGrayBorderButton.swift in Sources */,
-				18868D2728E4295600E9AE04 /* PlaceholderImageView.swift in Sources */,
-				18868D4128E4295600E9AE04 /* CircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftBaseKit"
-  spec.version      = "0.1.2"
+  spec.version      = "1.0.0"
   spec.summary      = "Common files of swift project"
 
   # This description is used to generate tags and improve search results.
@@ -95,25 +95,14 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.6"
       
+  spec.subspec "Constant" do |ss|
+    ss.source_files = "SwiftBaseKit/Constant/**/*.swift"
+  end
   spec.subspec "Extension" do |ss|
     ss.source_files = "SwiftBaseKit/Extension/**/*.swift"
   end
   spec.subspec "Manager" do |ss|
     ss.source_files = "SwiftBaseKit/Manager/**/*.swift"
-  end
-  spec.subspec "Config" do |ss|
-    ss.source_files = "SwiftBaseKit/Config/**/*.swift"
-    ss.dependency "SwiftBaseKit/Extension"
-  end
-  spec.subspec "Constant" do |ss|
-    ss.source_files = "SwiftBaseKit/Constant/**/*.swift"
-    ss.dependency "SwiftBaseKit/Config"
-  end
-  spec.subspec "Adapter" do |ss|
-    ss.source_files = "SwiftBaseKit/Adapter/**/*.swift"
-    ss.dependency "SwiftBaseKit/Extension"
-    ss.dependency "SwiftBaseKit/Config"
-    ss.dependency "SwiftBaseKit/Constant"
   end
   
   # spec.public_header_files = "Classes/**/*.h"
